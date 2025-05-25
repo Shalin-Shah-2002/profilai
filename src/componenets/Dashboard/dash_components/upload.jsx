@@ -24,7 +24,8 @@ const Upload = ({ onAnalysisComplete }) => {
         formData.append("pdf", selectedFile);
 
         try {
-            const response = await fetch("http://localhost:5000/api/pdf/upload", {
+            // const response = await fetch("http://localhost:5000/api/pdf/upload", {
+            const response = await fetch("https://profil-ai-backend.onrender.com/api/pdf/upload", {
                 method: "POST",
                 body: formData,
             });

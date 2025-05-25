@@ -19,7 +19,8 @@ export const Signup = () => {
         }
     }
     const GoogleLoginButton = () => {
-        window.location.href = "http://localhost:5000/api/auth/google";
+        // window.location.href = "http://localhost:5000/api/auth/google";
+        window.location.href = "https://profil-ai-backend.onrender.com/api/auth/google";
         console.log("Google Login Button Clicked")
     }
 

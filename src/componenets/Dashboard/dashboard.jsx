@@ -25,7 +25,8 @@ const Dashboard = () => {
             return;
         }
 
-        fetch("http://localhost:5000/api/user/me", {
+        // fetch("http://localhost:5000/api/user/me", {
+        fetch("https://profil-ai-backend.onrender.com/api/user/me", {
             headers: {
                 Authorization: `Bearer ${token}`,
             },
