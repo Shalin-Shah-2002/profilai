@@ -72,8 +72,8 @@ const Dashboard = () => {
                     </div>
 
                     <div className="flex-1 text-center md:text-left">
-                        <h1 className="text-3xl md:text-4xl font-bold text-purple-800 mb-2">👋 Hi, I'm {user.name || "Shalin Shah"}</h1>
-                        <h2 className="text-xl text-purple-600 font-medium mb-4">{user.title || "Flutter Developer | Web Enthusiast"}</h2>
+                        <h1 className="text-3xl md:text-4xl font-bold text-purple-800 mb-2">👋 Hi, I'm Shalin Shah</h1>
+                        <h2 className="text-xl text-purple-600 font-medium mb-4">"Flutter Developer | Web Enthusiast </h2>
                         <p className="text-gray-600 max-w-2xl mb-6">
                         Shalin, a B.Tech Computer Science student at Charotar University, has built Resumi AI using the MERN stack. Powered by Google's Gemini AI, the platform analyzes resumes, extracts skills, and provides intelligent enhancement suggestions. It showcases Shalin's expertise in full-stack development and practical AI integration.
 
